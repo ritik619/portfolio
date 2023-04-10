@@ -1,7 +1,7 @@
 import React from 'react';
 const Sidebar = () => {
     return (
-        <div className='w-72 h-screen bg-back'>
+        <div className='z-10 absolute inset-0  w-20 h-52'>
         <div className="xl:navigation-desktop flex flex-row justify-between items-center gap-6 xl:flex-col xl:items-start py-6 px-4 xl:py-8 xl:px-8 ">
             <div className="menu flex  mt-36 text-white flex-row  justify-between xl:flex-col xl:justify-start pt-4 px-10 xl:p-0 relative select-none tracking-wider">
                 <span className='flex ml-5 flex-col items-center xl:flex-row xl:items-start
@@ -40,8 +40,8 @@ const Sidebar = () => {
                 <div className="absolute top-0 -left-10 nav-light-large">
                     <img className='w-full h-full object-center object-cover' src="nav-light-aqua.png" alt="selected item Home" />
                 </div>
-                <div className="absolute top-0 -left-10 nav-light-small">
-                    <img className="w-full h-full object-center object-cover" src="nav-light-blue.png" alt="selected item Home" />
+                <div className="absolute top-0  -left-10 nav-light-small">
+                    <img className="w-full h-56 object-center object-cover" src="nav-light-blue.png" alt="selected item Home" />
                 </div>
 
             </div>
@@ -51,7 +51,7 @@ const Sidebar = () => {
                
                 <li><a href="#" target='_blank' rel="noreffer">
                     <div color="#F6F6F6" className=' hub-icon cursor-pointer' style={{
-                        width: '10px',
+                        width: '18px',
                         height: 'auto',
                         color: '#F6F6F6',
                         transition: 'color 0.3s ease 0s'
@@ -61,7 +61,7 @@ const Sidebar = () => {
                 
                 <li><a href="#" target='_blank' rel="noreffer">
                     <div color="#F6F6F6" className=' hub-icon cursor-pointer' style={{
-                        width: '12px',
+                        width: '20px',
                         height: 'auto',
                         color: '#F6F6F6',
                         transition: 'color 0.3s ease 0s'
@@ -70,7 +70,7 @@ const Sidebar = () => {
                 </a></li>
                 <li><a href="#" target='_blank' rel="noreffer">
                     <div color="#F6F6F6" className=' hub-icon cursor-pointer' style={{
-                        width: '0px',
+                        width: '20px',
                         height: 'auto',
                         color: '#F6F6F6',
                         transition: 'color 0.3s ease 0s'
@@ -107,7 +107,6 @@ const Sidebar = () => {
                                     <div><img src="vectorD.svg" alt="My SVG Image" className="filter invert" /></div>
                                 </div>
                         </div>
-
                     </button>
                 </a>
             </div>
