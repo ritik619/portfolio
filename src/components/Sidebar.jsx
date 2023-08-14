@@ -1,8 +1,8 @@
 import React from 'react';
 const Sidebar = () => {
     return (
-        <div className='z-10 absolute inset-0  w-20 h-52'>
-        <div className="xl:navigation-desktop flex flex-row justify-between items-center gap-6 xl:flex-col xl:items-start py-6 px-4 xl:py-8 xl:px-8 ">
+        <div className='z-10 absolute inset-0 flex w-56 bg-black h-screen'>
+        <div className="xl:navigation-desktop flex flex-row items-center gap-6 xl:flex-col xl:items-start py-4 px-4 xl:py-8 xl:px-8 ">
             <div className="menu flex  mt-36 text-white flex-row  justify-between xl:flex-col xl:justify-start pt-4 px-10 xl:p-0 relative select-none tracking-wider">
                 <span className='flex ml-5 flex-col items-center xl:flex-row xl:items-start
                     relative
